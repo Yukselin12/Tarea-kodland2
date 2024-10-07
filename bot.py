@@ -31,4 +31,4 @@ async def datos(ctx):
     ]
     await ctx.send(random.choice(datos))
 
-bot.run("MTI4NTI2MDE4MDE5OTgzMzY4MQ.GYGW1V.QnI6kJ7opJaonAh76OOBGKQ0pLesjYopv9a0l4")
+bot.run("token")
