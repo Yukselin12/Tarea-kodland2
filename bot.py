@@ -31,4 +31,13 @@ async def datos(ctx):
     ]
     await ctx.send(random.choice(datos))
 
-bot.run("token")
+@bot.command()
+async def quieneres(ctx):
+    await ctx.send("¿Quien soy? soy un reciclador que quiere mejorar el medio ambiente de todo el mundo y me apasiona me llamo mateo")
+
+@bot.command()
+async def Help(ctx):
+    await ctx.send("ayuda. para cada comando que escribas lo tienes que empezar con $ Ejemplo $ayuda; puedes escribir los comandos siguientes: quieneres datos ropa y reciclaje")
+
+
+bot.run("Token")
