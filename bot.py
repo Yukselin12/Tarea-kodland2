@@ -39,5 +39,8 @@ async def quieneres(ctx):
 async def Help(ctx):
     await ctx.send("ayuda. para cada comando que escribas lo tienes que empezar con $ Ejemplo $ayuda; puedes escribir los comandos siguientes: quieneres datos ropa y reciclaje")
 
-
-bot.run("Token")
+@bot.command()
+async def comoropa(ctx):
+    await ctx.send("Como reciclar ropa: La producción de materias primas: las prendas se producen a partir de materias primas como el poliéster, el algodón, la seda o la lana. Algunas de ellas se derivan de recursos no renovables, como el petróleo, para producir fibras sintéticas, mientras que otras se derivan de materiales vegetales o animales y, por tanto, requieren mucha agua y productos químicos. La fabricación de la ropa: debido a las sustancias que contiene, el tinte es tóxico no sólo para los trabajadores que fabrican la ropa, sino también para los consumidores y el ecosistema acuático que contamina. El transporte de la ropa: generalmente se fabrica en países en vías de desarrollo, donde los costes de producción y los sueldos son más bajos, y la ropa se transporta a España por aire o por mar. Sin embargo, el avión es el medio de transporte más contaminante. El mantenimiento de la ropa: el consumo excesivo de agua, al lavar la ropa se desprenden un gran número de micropartículas contaminantes. El reciclaje de la ropa usada: se trata de un paso crucial. Clasificar su armario y reciclar ciertas prendas usadas ayuda a prolongar la vida útil del textil, y así evitar pasos innecesarios como la producción de materias primas, la fabricación de productos o incluso el transporte.                                                                                           Paginas recomendadas: https://www.ecoembes.com/es /                         https://www.reciclaconsciente.pe/")      
+   
+bot.run("token")
